@@ -48,7 +48,7 @@ if (m === n) {
     console.log("strict match");
 }
 
-/* Output = "loose match"
+/* Output = "loose match" */
 
 
 
