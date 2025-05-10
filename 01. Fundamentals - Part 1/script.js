@@ -85,6 +85,6 @@ const variable is immutable. */
 
 var job = 'programmer'
 job = 'teacher';
-console.log(job);
+
 
 
