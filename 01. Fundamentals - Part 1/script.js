@@ -71,7 +71,20 @@ console.log(year);
 
 console.log(typeof null);
 
+/* Mutate a variable is we call this reassigning a value to a variable.*/
 
+let age = 30;
+age = 31;
+console.log(age);
 
+const birthYear = 1990;
+birthYear = 1992;
+
+/* in const variable cann't change for any point in the future. 
+const variable is immutable. */
+
+var job = 'programmer'
+job = 'teacher';
+console.log(job);
 
 
