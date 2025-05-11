@@ -6,10 +6,10 @@ if (js === 'amazing') {
 console.log("Murad");
 console.log('33');
 
-let firstName = "Elmi";
+let Name = "Elmi";
 
-console.log(firstName);
-console.log(firstName);
+console.log(Name);
+console.log(Name);
 
 /*understanding =, == & === operator in javascript
 
@@ -22,9 +22,9 @@ console.log(a);
 
 2. Equality Operator (==) --> Type conversation and then compare values */
 
-let x = "100";
-let y = 100;
-console.log(x == y);
+let u = "100";
+let i = 100;
+console.log(u == i);
 /* == allows type convertion and string "100" is converted to number 100 before comparison.
 
 3. Strict Equality (===) --> 
@@ -77,14 +77,53 @@ let age = 30;
 age = 31;
 console.log(age);
 
-const birthYear = 1990;
-birthYear = 1992;
+/*const birthYear = 1990;
+birthYear = 1992; */
 
 /* in const variable cann't change for any point in the future. 
 const variable is immutable. */
 
 var job = 'programmer'
 job = 'teacher';
+
+
+/*Operators 
+1. Mathematical operators: +,-,*,/ */
+
+const now = 2025;
+const ageMurad = now - 1991;
+const ageElmi = now - 2022;
+console.log(ageMurad, ageElmi);
+
+console.log(ageMurad * 2, ageElmi / 10, 2 ** 3);
+/* 2 ** 3 means, 2 to the power of 3 = 2*2*2 = 8 */
+
+const firstName = 'Murad';
+const lastName = 'Hassan';
+console.log(firstName + ' ' + lastName);
+
+//Assignment Operators:
+
+let x = 10 + 5; // x = 15
+x += 10; // x = x + 10 
+x *= 4;  // x = x* 4
+x++;  // x = x + 1
+x--;
+x--;
+
+console.log(x);
+
+// Comparison Operator : >, <, >=,<=
+
+console.log(ageMurad > ageElmi);
+console.log(ageElmi < ageMurad);
+console.log(ageElmi <= 8);
+// ageElmi = ageElmi < 8 
+
+
+
+
+
 
 
 
