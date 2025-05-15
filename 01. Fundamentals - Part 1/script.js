@@ -118,7 +118,11 @@ console.log(x);
 console.log(ageMurad > ageElmi);
 console.log(ageElmi < ageMurad);
 console.log(ageElmi <= 8);
-// ageElmi = ageElmi < 8 
+console.log(ageElmi >= 8);
+// ageElmi = ageElmi < 8
+
+// logical Operator: 
+
 
 
 
