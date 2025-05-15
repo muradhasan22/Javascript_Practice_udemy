@@ -102,7 +102,7 @@ const firstName = 'Murad';
 const lastName = 'Hassan';
 console.log(firstName + ' ' + lastName);
 
-//Assignment Operators:
+/*Assignment Operators:
 
 let x = 10 + 5; // x = 15
 x += 10; // x = x + 10 
@@ -111,7 +111,7 @@ x++;  // x = x + 1
 x--;
 x--;
 
-console.log(x);
+console.log(x); */
 
 // Comparison Operator : >, <, >=,<=
 
@@ -121,13 +121,59 @@ console.log(ageElmi <= 8);
 console.log(ageElmi >= 8);
 // ageElmi = ageElmi < 8
 
-// logical Operator: 
+const isFullAge = ageElmi <= 3;
+console.log(now - 1991 >= now - 2022);
 
 
 
 
 
+// Precedence of defferent operators;
 
+let x, y;
+x = y = 25 - 10 - 5;// x = y = 10
+console.log(x, y);
+
+//Determine average values:
+/*
+const averageAge = (ageMurad + ageElmi) / 2;
+console.log(ageMurad, ageElmi, averageAge);
+
+//Coding Challenge #1:
+
+//Declare variable with mass and height:
+const massMark = 78;
+const heightMark = 1.69;
+const massjohn = 92;
+const heightJohn = 1.95;
+
+//Calculate their BMI with recommended formula:
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massjohn / (heightJohn * heightJohn);
+
+//Create a boolean variable :
+const markHigherBMI = BMIMark > BMIJohn;
+
+//Executed them together below:
+console.log(BMIMark, BMIJohn, markHigherBMI);*/
+
+//Coding Challenge #1:
+
+//Declare variable with mass and height:
+const massMark = 95;
+const heightMark = 1.88;
+const massjohn = 85;
+const heightJohn = 1.76;
+
+//Calculate their BMI with recommended formula:
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massjohn / (heightJohn * heightJohn);
+
+//Create a boolean variable :
+const markHigherBMI = BMIMark > BMIJohn;
+
+//Executed them together below:
+console.log(BMIMark, BMIJohn, markHigherBMI);
 
 
 
