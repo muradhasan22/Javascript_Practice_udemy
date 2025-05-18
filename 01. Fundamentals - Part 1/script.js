@@ -175,5 +175,31 @@ const markHigherBMI = BMIMark > BMIJohn;
 //Executed them together below:
 console.log(BMIMark, BMIJohn, markHigherBMI);
 
+/* Non-Primitive data Types :
+
+1. Object: (Key - value pair): */
+let student = {
+    name: "Anabiya",
+    age: 4,
+    isStudent: true
+};
+console.log(student.name);
+// A students record in a school management system
+/*
+2. Array: ( list of item stored in ordered index[0]) */
+
+let fruits = ["Mango", "Banana", "Apple", "Water Melon"];
+
+console.log(fruits[1]);
+//A basket containing multiple fruits.
+/*
+3. Function: ( Ablock of code) */
+function greet(name) {
+    console.log("Hello " + name);
+}
+greet("Muntaha");
+
+
+
 
 
