@@ -199,6 +199,51 @@ function greet(name) {
 }
 greet("Muntaha");
 
+// 17. String And template literals:
+
+const fName = 'Murad';
+const jb = 'Web Developer';
+const birthYear = 1992;
+const yr = 2025;
+
+const murad = "I'm " + fName + ', a ' + (yr - birthYear) + ' years old ' + jb + '!';
+console.log(murad);
+
+const muradnew = `I'm ${fName}, a ${yr - birthYear} years old ${jb}!`;
+console.log(muradnew);
+
+console.log(`Just a regular srting...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String write in
+    muliple lines
+    with backtics`);
+
+//18. If / Else statements(Control structure):
+const ag = 15;
+//const isOldEnough = age >= 18;
+
+if (ag >= 18) {
+    console.log('Elmi is eligible for driving license !');
+} else {
+    const yearsLeft = 18 - ag;
+    console.log(`Elmi is too young, wait another ${yearsLeft} years.`);
+}
+
+const brthyear = 2001;
+
+let century;
+if (brthyear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+
+
 
 
 
