@@ -159,7 +159,7 @@ console.log(BMIMark, BMIJohn, markHigherBMI);*/
 
 //Coding Challenge #1:
 
-//Declare variable with mass and height:
+/*Declare variable with mass and height:
 const massMark = 95;
 const heightMark = 1.88;
 const massjohn = 85;
@@ -173,7 +173,7 @@ const BMIJohn = massjohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 
 //Executed them together below:
-console.log(BMIMark, BMIJohn, markHigherBMI);
+console.log(BMIMark, BMIJohn, markHigherBMI); */
 
 /* Non-Primitive data Types :
 
@@ -242,6 +242,33 @@ if (brthyear <= 2000) {
     century = 21;
 }
 console.log(century);
+
+//Coding Challenge #2:
+
+//Part - 1:
+//Declare variable with mass and height:
+const massMark = 95;
+const heightMark = 1.88;
+const massJhon = 85;
+const heightJhon = 1.76;
+
+//Calculate their BMI with recommended formula:
+const BMIMark = massMark / heightMark ** 2;
+const BMIJhon = massJhon / (heightJhon * heightJhon);
+console.log(BMIMark, BMIJhon);
+
+/*if (BMIMark > BMIJhon) {
+console.log("Mark's BMI is higher than Jhon's!")
+} else {
+    console.log("John's BMI is higher than Mark's!")
+} */
+//Part-2:
+if (BMIMark > BMIJhon) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than Jhon's (${BMIJhon})!`)
+} else {
+    console.log(`John's BMI (${BMIJhon}) is higher than Mark's (${BMIMark})!`)
+}
+
 
 
 
