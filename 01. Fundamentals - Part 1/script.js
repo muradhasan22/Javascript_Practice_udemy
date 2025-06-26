@@ -193,7 +193,7 @@ let fruits = ["Mango", "Banana", "Apple", "Water Melon"];
 console.log(fruits[1]);
 //A basket containing multiple fruits.
 /*
-3. Function: ( Ablock of code) */
+3. Function: ( A block of code) */
 function greet(name) {
     console.log("Hello " + name);
 }
@@ -264,14 +264,29 @@ console.log("Mark's BMI is higher than Jhon's!")
 } */
 //Part-2:
 if (BMIMark > BMIJhon) {
-    console.log(`Mark's BMI (${BMIMark}) is higher than Jhon's (${BMIJhon})!`)
+    console.log(`Mark's BMI (${BMIMark}) is higher than Jhon's BMI (${BMIJhon})!`)
 } else {
-    console.log(`John's BMI (${BMIJhon}) is higher than Mark's (${BMIMark})!`)
+    console.log(`John's BMI (${BMIJhon}) is higher than Mark's BMI (${BMIMark})!`)
 }
 
+// 20.Type conversion and coersion:
+
+const inputYear = '1991';
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 33);
+
+console.log(String(23), 23);
 
 
+console.log('I am a ' + 33 + ' years old programmar.');
+console.log('33' - '20' - 3);
+console.log('23' / 2);
 
+let p = '1' + 1;// '11'
+p = p - 1;
+console.log(p);
 
+//21. Truthy and falsy values :
+// 5 Falsy Values : 0, '', undefined, null, NaN.
 
 
