@@ -11,9 +11,9 @@ let Name = "Elmi";
 console.log(Name);
 console.log(Name);
 
-/*understanding =, == & === operator in javascript
+/* 22. understanding =, == & === operator in javascript
 
-1.Assignment(=) --> assign a value to a variable */
+1.Assignment(=)-- > assign a value to a variable */
 
 let a;
 a = 10;
@@ -289,4 +289,23 @@ console.log(p);
 //21. Truthy and falsy values :
 // 5 Falsy Values : 0, '', undefined, null, NaN.
 
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Elmi')); //string is truthy value
+console.log(Boolean(null));
+console.log(Boolean(NaN));
 
+
+const money = 100;
+if (money) {
+    console.log('Dont spend it at all');
+} else {
+    console.log('You should get a job.!');
+}
+
+let height = 100;
+if (height) {
+    console.log('Hey, Height is defined !');
+} else {
+    console.log('Height is undefined !')
+}
