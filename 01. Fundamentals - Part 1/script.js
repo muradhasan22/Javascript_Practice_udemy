@@ -413,3 +413,14 @@ console.log(`I'm ${age} years old web developer.`); // works expression
 
 //28.Conditional(Ternary) operator;\:
 
+const ags = 23;
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = 'wine';
+} else {
+    drink2 = 'water';
+}
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
