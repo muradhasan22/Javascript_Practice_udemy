@@ -309,3 +309,60 @@ if (height) {
 } else {
     console.log('Height is undefined !')
 }
+
+// 23. Boolean Logic:
+// and(&&), Or(||), Not (!)
+
+const hasDriversLicense = true //A
+const hasGoodVision = true //B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+/*if (hasDriversLicense && hasGoodVision) {
+console.log("Elmi is able to drive!");
+} else {
+    ("Someone else should drive..");
+} */
+const isTired = true //C
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Elmi is able to drive!");
+} else {
+    console.log("Someone else should drive..");
+}
+
+// Coding Challenge - 3:
+
+/* question no - 1;
+const scoreDolphin = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+console.log(scoreDolphin, scoreKoalas);
+
+//question no - 2;
+if (scoreDolphin > scoreKoalas) {
+    console.log("Dolphin's win the trophy.!");
+} else if (scoreKoalas > scoreDolphin) {
+    console.log("Koalas's win the tropht.!");
+} else if (scoreKoalas === scoreDolphin) {
+    console.log("Both win the trophy.!");
+} else {
+    console.log("No one win the trophy.!");
+} */
+
+const scoreDolphin = (97 + 95 + 101) / 3;
+const scoreKoalas = (101 + 95 + 103) / 3;
+console.log(scoreDolphin, scoreKoalas);
+
+//question no - 2;
+if (scoreDolphin > scoreKoalas && scoreDolphin >= 100) {
+    console.log("Dolphin's win the trophy.!");
+} else if (scoreKoalas > scoreDolphin && scoreKoalas >= 100) {
+    console.log("Koalas's win the tropht.!");
+} else if (scoreKoalas === scoreDolphin && scoreDolphin >= 100 && scoreKoalas >= 100) {
+    console.log("Both win the trophy.!");
+} else {
+    console.log("No one wins the trophy.!😂")
+}
+
