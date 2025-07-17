@@ -393,3 +393,23 @@ switch (day) {
     default:
         console.log('Not a valid day');
 }
+
+//27.Statement and Expression :
+
+//Expression : A piece of code that produce a value
+3 + 7;
+1992;
+true && false || !true;
+
+//Statement: A larger piece of code that doesn't produce a value by itself
+
+if (23 > 10) {
+    const str = '23 is bigger';
+}
+
+// In template literals we can only insert expression not statemenmt.
+age = 2025 - 1992;
+console.log(`I'm ${age} years old web developer.`); // works expression
+
+//28.Conditional(Ternary) operator;\:
+
