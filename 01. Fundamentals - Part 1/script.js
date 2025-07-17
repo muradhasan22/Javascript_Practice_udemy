@@ -311,7 +311,7 @@ if (height) {
 }
 
 // 23. Boolean Logic:
-// and(&&), Or(||), Not (!)
+// Javascript implement boolean logic with and(&&), Or(||), Not (!) operators
 
 const hasDriversLicense = true //A
 const hasGoodVision = true //B
