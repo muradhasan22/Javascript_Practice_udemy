@@ -9,5 +9,5 @@ console.log(population);
 let PI = 3.1415;
 console.log(PI);
 
-let 2 = 2;
-console.log(2);
+let m = 2;
+console.log(m);
