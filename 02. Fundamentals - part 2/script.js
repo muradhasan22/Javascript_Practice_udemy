@@ -16,3 +16,11 @@ function greetUser(name) {
 }
 greetUser("Elmi");
 
+//explanation: name is parameter. When call/invoke the function, i pass the argument("Elmi").
+
+//Function Declaration :
+
+
+
+//Function Expression:
+
